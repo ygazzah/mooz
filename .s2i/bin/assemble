@@ -1,8 +1,9 @@
 cp -Rf /tmp/src/*.html ./
-mv *.html /opt/rh/httpd24/root/var/www/html/
 echo " ====>> files copied !! "
 
 echo $(date +"%Y-%m-%d") > ./info.html
 echo "this is the final test .... " >> ./info.html
 
 echo " =====>> info file created "
+
+mv *.html /opt/rh/httpd24/root/var/www/html/
