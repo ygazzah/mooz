@@ -1,0 +1,7 @@
+cp -Rf /tmp/src/*.html ./
+echo " ====>> files copied !! "
+
+echo $(date +"%Y-%m-%d") > ./info.html
+echo "this is the final test .... " >> ./info.html
+
+echo " =====>> info file created "
